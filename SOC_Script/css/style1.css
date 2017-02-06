@@ -1,0 +1,336 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.primary-color {
+	background: linear-gradient(#833f00, #a86d07); 
+    
+}
+
+#nav_bar{
+	margin-bottom: 0;
+	border: none;
+}
+
+
+.logo{
+	margin:10px 0 10px 80px ;
+	width: 80px;
+}
+.logo2{
+	
+	display: none;
+}
+#nav_ul >li > a{
+	color:  #fdc157;
+	margin: 10px 10px 0 10px;
+}
+#nav_ul >li{
+	margin-right: 20px;
+}
+#nav_ul{
+	text-align: center;
+	float: right;
+}
+#nav_bar{
+	position: relative;
+}
+
+#home-img {
+	max-width: 100%;
+}
+#home-img > img {
+	width: 100%;
+}
+
+#gallerypage2{
+	background-image: url(../images/images/gallerypage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+#homepage2{
+	background-image: url(../images/images/homepage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+#gameinfopage2{
+	background-image: url(../images/images/gameinfopage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+#accountpage{
+	background-image: url(../images/images/accountpage.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+	color: black;
+	text-align: center;
+	padding-top: 290px;
+}
+#accountpage2{
+	background-color: white;
+	display: inline-block;
+	padding: 20px;
+	background: radial-gradient(#a89c84,#909189,#3f5156);
+
+
+}
+/*=====================================login=================================================================*/
+#loginpage2{
+	background-image: url(../images/images/loginpage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+#username, #password{
+	padding-left: 35px;
+}
+
+#midbox{
+	width: 50%;
+	color: white;
+	margin:0 auto; 
+	position: relative;
+	top: 180px;
+
+}
+#midbox button{
+	float: right;
+}
+#leftbox{
+	background: radial-gradient(#a89c84,#909189,#3f5156,#a89c84,#909189,#3f5156);
+	padding: 20px ;
+	text-align: center;
+	width: 300px;
+	height: 370px;
+	border-radius: 10px;
+}
+#rightbox{
+	background: radial-gradient(#a89c84,#909189,#3f5156);
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+	height: 370px;
+	border-radius: 10px;
+}
+#middlebox{
+	text-align: center;
+	top: 127px;
+	font-style: italic;
+}
+#midbox h1{
+	color: orange;
+}
+#midbox a{
+	color: white;
+	float: right;
+	font-style: italic;
+	font-size: 12px;
+}
+.form-group {
+    position: relative;
+}
+#midbox .fa{
+	position: absolute;
+    top: 9px;
+    left:15px;
+    color: black;
+}
+#newuser{
+	top:117px !important;
+}
+#form2{
+	width: 90%;
+	margin: 0 auto;
+}
+/*====================communitypage========================================================================*/
+#communitypage{
+	background-image: url(../images/images/communitypage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+.list11{
+	width:42.4%;
+	float: right;
+	margin-top: 4%;
+	
+	margin-right: 14.5%;
+	position: relative;
+	margin-bottom: 9.5%;
+	
+}
+
+.list11  a{
+	margin-top: 31px;
+	color: white;
+	font-size: 19px;
+	display: block;
+	margin-left: 13px;
+
+}
+#list12{
+	margin-top: 0;
+	color: white;
+	font-size: 19px;
+	display: block;
+	margin-left: 13px;
+
+}
+.forp{
+	float: right;
+	margin-right: 20px;
+}
+.forp11{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 15px 25px;
+	background-color:transparent;
+	border: solid black 2px;
+}
+.forp22{
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 15px 28px;
+	background-color:transparent;
+	border: solid black 2px;
+}
+.forp33{
+	text-align: center;
+	color: black;
+	
+}
+#new-post-button{
+	position: relative;
+	top: 20px;
+}
+#new-post-button-two{
+	position: relative;
+	top: -10px;
+}
+#new-post{
+	position: absolute;
+	top:33.8%;
+	left: 43.2%;
+	background: radial-gradient(#a89c84,#909189,#3f5156);
+	height:  360px ;
+	width: 650px; 
+}
+#new-post-two{
+	position: absolute;
+	top:33.8%;
+	left: 43.2%;
+	background: radial-gradient(#a89c84,#909189,#3f5156);
+	height:  360px ;
+	width: 650px; 
+}
+.new-post-box{
+	padding: 30px;
+}
+.new-post-box button{
+	float: right;
+}
+/*=====================================================================communitypage2===========================*/
+#communitypage2{
+	background-image: url(../images/images/communitypage2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+}
+/*=====================================================================communityforum2=========================*/
+#communityforum2{
+	background-image: url(../images/images/communityforum2.png);
+	width: 100%;
+	height:725px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+	color: white;
+}
+.bigbox{
+	/*width: 99%;*/
+	margin: 0 auto;
+}
+.span1{
+	color: yellow;
+}
+.span2{
+	color: red;
+}
+.span3{
+	color: pink;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: white !important;
+}
+.title{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 180px;
+	top: 60px;
+	display: inline;
+}
+@media screen and (min-device-width: 770px){
+	.logo2{
+		display: block;
+		/*margin-right: 60px;*/
+		width: 410px;
+		height: 180px;
+		position: absolute;
+		left: 230px;
+	}
+}
+.clear-float:before,.clear-float:after{
+	clear: both;
+	content: "";
+	display: block;
+
+}
+
+footer{
+	background-color: #1e0600;
+	color: white;
+	height: 100px;
+
+}
+footer>p{
+	padding-top: 45px;
+}
+
+#new-post {
+	display: none;
+}
+#new-post-two {
+	display: none;
+}

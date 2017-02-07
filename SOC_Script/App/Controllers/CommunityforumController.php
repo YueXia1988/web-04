@@ -14,9 +14,10 @@ Class CommunityforumController
 
 		// $posts = new CommunityModel();		
 		// $postsList = $posts->showAllDetails();
-		
+		$id = isset($_GET['id']) ? $_GET['id']: '';
+		$posts = new CommunityModel($id);
 
-		$topics = new CommunityModel();
+		$topics = new CommentsModel($id);
 		$topicsList = $topics->showAllDetails();
 
 
@@ -24,7 +25,7 @@ Class CommunityforumController
 		// $user = new UsersModel($userID);
 	
 
-	    $view = new CommunityforumView(compact('topicsList'));
+	    $view = new CommunityforumView(compact('topicsList', 'posts'));
 	    $view->render();
 	}
 

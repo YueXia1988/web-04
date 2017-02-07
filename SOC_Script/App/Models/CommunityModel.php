@@ -9,7 +9,7 @@ use Intervention\Image\ImageManagerStatic as Image;
 Class CommunityModel extends DatabaseModel
 {
 	protected static $tablename = 'posts';
-	protected static $columns = ['id','user_id','title','time','review_count','description'];
+	protected static $columns = ['id','title','time','review_count','description'];
 	protected static $validationRules =[
 					'title'       => 'minlength:3',				
 					'description' => 'minlength:10'
@@ -104,42 +104,5 @@ Class CommunityModel extends DatabaseModel
 			return $searchresults;
     }
 
-    public function showAllDetails(){
-    	// get database connection
-		$db= $this -> getDatabaseConnection();
-
-
-		$sql = ' SELECT  topics.comment,posts.description, posts.title, users.guidename , users.level, users.username  
-				FROM topics
-				JOIN users 	ON topics.user_id = users.id
-				JOIN posts ON topics.title = posts.id
-				';
-
-
-			// $sql = ' SELECT posts.title, users.username  
-			// 	FROM posts
-			// 	JOIN users 	ON topics.user_id = users.id';		
-
-		// $sql = ' SELECT  posts.description  
-		// 		FROM posts
-		// 		JOIN users 	ON posts.user_id = users.id';
-				
-
-				
-
-		$statement = $db -> prepare($sql);
-
-		// $statement->bindValue(':id',$id);
-
-		$statement->execute();
-
-		$commentsArray =[];
-
-		while ($record = $statement->fetch(PDO::FETCH_ASSOC)){
-			array_push($commentsArray, $record);
-		}
-		
-		return $commentsArray;
-    }
-
+    
 }

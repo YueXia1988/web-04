@@ -223,6 +223,7 @@
 .forp33{
 	text-align: center;
 	color: black;
+
 	
 }
 #new-post-button{
@@ -277,7 +278,7 @@
 	color: white;
 }
 .bigbox{
-	/*width: 99%;*/
+/*	width: 80%;*/
 	margin: 0 auto;
 }
 .span1{
@@ -301,6 +302,20 @@
 	top: 60px;
 	display: inline;
 }
+#communityp22{
+	display: block;
+	width: 90%;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+#communityp223{
+	position: absolute;
+	top: 90%;
+}
+#community2233{
+	height: 140px;
+}
+
 @media screen and (min-device-width: 770px){
 	.logo2{
 		display: block;

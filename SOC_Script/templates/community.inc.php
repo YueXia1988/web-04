@@ -9,7 +9,7 @@
  	 		<span class="forp11" id="new-post-button">+ New Post</span><br><br><br><br><br>
  	 		<?php foreach($postsList as $posts):?>
 			  		<p>
-			  			<a href="./?page=communityforum&amp;id=<?=$posts['id'];?>" class="fa fa-file-o"><?= $posts['title'];?><span class="forp fa fa-comment"><?= $posts['review_count'];?><?= $posts['user_id'];?><?= $posts['time'];?></span>></a>
+			  			<a href="./?page=communityforum&amp;id=<?=$posts['id'];?>" class="fa fa-file-o"><?= $posts['title'];?><span class="forp fa fa-comment"><?= $posts['review_count'];?><?= $posts['time'];?></span>></a>
 			  		</p>
 			  <?php endforeach; ?>
  	 	<!--  <div class="backcolor"><p ><a href=".\?page=communityforum"  class="fa fa-file-o">&nbsp;Guild Emperor vs Baron!!<span class="forp fa fa-comment">&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vinex&nbsp;&nbsp;3 hrs</span></a><br>
